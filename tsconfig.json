@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    /* Language & environment (Node 18+) */
+    "target": "ES2022",
+    "lib": ["ES2022"],
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "types": ["node"],
+
+    /* Project layout */
+    "rootDir": "src",
+    "outDir": "dist",
+
+    /* Interop with Express / CommonJS packages */
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+
+    /* Strict type checking */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedIndexedAccess": true,
+    "forceConsistentCasingInFileNames": true,
+
+    /* Emit */
+    "sourceMap": true,
+    "removeComments": true,
+    "newLine": "lf",
+    "noEmitOnError": true,
+
+    /* Performance / pragmatism */
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules", "dist"]
+}
